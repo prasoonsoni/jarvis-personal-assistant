@@ -107,4 +107,4 @@ if __name__ == "__main__":
             webbrowser.open("codechef.com")
         elif "new year" in query:
             speak("OK sir")
-            speak("Happy new year to everyone. may this year brings happiness in your life and you achieve all your goals. And most importantly may this corona virus leave the earth. Thank You!")
+            
