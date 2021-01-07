@@ -19,7 +19,7 @@ def takecommand():
     try:
         print("Recognizing...")    
         query = r.recognize_google(audio, language='en-in')
-        print(f"Prasoon Said: {query}\n")
+        print(f"User Said: {query}\n")
     except Exception as e:   
         print("Say that again please...")
         return "None"
@@ -44,30 +44,6 @@ def date():
     day = (int(datetime.datetime.now().day))
     month = (str(datetime.datetime.now().month))
     year = (int(datetime.datetime.now().year))
-    if month=="01":
-        month = "january"
-    elif month =="02":
-        month = "february"
-    elif month =="03":
-        month = "march"
-    elif month =="04":
-        month = "april"
-    elif month =="05":
-        month = "may"
-    elif month =="06":
-        month = "june"
-    elif month =="07":
-        month = "july"
-    elif month =="08":
-        month = "august"
-    elif month =="09":
-        month = "september"
-    elif month =="10":
-        month = "october"
-    elif month =="11":
-        month = "november"
-    elif month =="12":
-        month = "december"
     speak("Sir, Today's date is")
     speak(day)
     speak(month)
