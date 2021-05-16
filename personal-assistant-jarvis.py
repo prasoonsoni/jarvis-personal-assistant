@@ -28,13 +28,13 @@ def takecommand():
 def wishme():
     time = int(datetime.datetime.now().hour)
     if time>=0 and time<12:
-        speak("Good morning Sir!")
+        speak("Good morning !")
     elif time>=12 and time<18:
-        speak("Good Afternoon Sir!")
+        speak("Good Afternoon !")
     elif time>=18 and time <20:
-        speak("Good evening Sir!.")
+        speak("Good evening !.")
     else:
-        speak("Good Night Sir!")
+        speak("Good Night !")
     speak("Your personal assistant at your service sir, how may i help you")
 
 def timing():
